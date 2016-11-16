@@ -1,0 +1,8 @@
+# Categorias de los cortes de carne (pricipalmente de que animal pertenecen)
+# id|Nombre|TiposCarne
+0|Achura|0
+1|Vaca|1
+2|Pollo|1
+3|Cerdo|1
+4|Cordero|1
+5|Otro|2
