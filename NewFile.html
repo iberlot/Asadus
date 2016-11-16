@@ -1,0 +1,16 @@
+</script> 
+
+<script "> 
+function downloaddata(){ 
+marqueedata.startDownload(externalmarquee.src,displaydata) 
+} 
+function displaydata(data){ 
+externalmarquee.innerHTML=data 
+} 
+if (document.all) 
+window.onload=downloaddata 
+</script> 
+
+<IE:Download ID="marqueedata" STYLE="behavior:url(#default#download)" /> 
+<marquee id="externalmarquee" direction=up scrollAmount=4 style="width:350px;height:280px;border:0px solid black;padding:3px" onMouseover="this.scrollAmount=2" onMouseout="this.scrollAmount=4" src="bases/Bebidas"> 
+</marquee> 
