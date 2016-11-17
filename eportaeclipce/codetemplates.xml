@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php_methodbody_context" deleted="false" description="Code in created method stubs" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.methodbody" name="methodbody">// ${TODO} Auto-generated method stub
+${body_statement}</template><template autoinsert="false" context="php_classbody_context" deleted="false" description="Code in new class type bodies" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.classbody" name="classbody">
+</template><template autoinsert="true" context="php_setterbody_context" deleted="false" description="Code in created setters" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.setterbody" name="setterbody">${field} = ${param};</template><template autoinsert="true" context="php_constructorbody_context" deleted="false" description="Code in created constructor stubs" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.constructorbody" name="constructorbody">${body_statement}
+// ${TODO} Auto-generated constructor stub</template><template autoinsert="true" context="php_new_file_context" deleted="false" description="html 4.01 frameset" enabled="true" id="org.eclipse.php.ui.editor.templates.php.html.frameset" name="New PHP file - HTML frameset">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=${encoding}"&gt;
+&lt;title&gt;Insert title here&lt;/title&gt;
+&lt;/head&gt;
+&lt;frameset&gt;
+    &lt;frame&gt;
+    &lt;frame&gt;
+    &lt;noframes&gt;
+    &lt;body&gt;
+    &lt;p&gt;This page uses frames. The current browser you are using does not support frames.&lt;/p&gt;
+    &lt;?php
+${cursor}
+	?&gt;
+    &lt;/body&gt;
+    &lt;/noframes&gt;
+&lt;/frameset&gt;
+&lt;/html&gt;</template><template autoinsert="false" context="php_new_file_context" deleted="false" description="Simple php file" enabled="true" id="org.eclipse.php.ui.editor.templates.php.author" name="New simple PHP file">&lt;?php
+
+/**
+ * 
+ * @author ${user} &lt;@&gt; ivanberlot@gmail.com
+ * @todo FechaC ${date} - Lenguaje ${language} 
+ * 
+ * @todo ${file}
+ *
+ * @todo 
+ * @version 0.1 - Version de inicio 
+ * @package  
+ * @category 
+ */
+
+/*
+ * Querido programador:
+ *
+ * Cuando escribi este codigo, solo Dios y yo sabiamos como funcionaba.
+ * Ahora, Solo Dios lo sabe!!!
+ *
+ * Asi que, si esta tratando de 'optimizar' esta rutina y fracasa (seguramente),
+ * por favor, incremente el siguiente contador como una advertencia para el
+ * siguiente colega:
+ *
+ * totalHorasPerdidasAqui = 1
+ *
+ */
+
+${cursor}
+
+
+?&gt;</template><template autoinsert="false" context="php_interfacebody_context" deleted="false" description="Code in new interface type bodies" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.interfacebody" name="interfacebody">
+</template><template autoinsert="true" context="php_newtype_context" deleted="false" description="Newly created files" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.newtype" name="newtype">${filecomment}
+${package_declaration}
+
+${typecomment}
+${type_declaration}</template><template autoinsert="true" context="php_catchblock_context" deleted="false" description="Code in new catch blocks" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.catchblock" name="catchblock">// ${TODO} Auto-generated catch block
+${exception_var}.printStackTrace();</template><template autoinsert="true" context="php_getterbody_context" deleted="false" description="Code in created getters" enabled="true" id="org.eclipse.php.ui.editor.templates.php.codetemplates.getterbody" name="getterbody">return ${field};</template></templates>
